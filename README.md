@@ -1,12 +1,10 @@
-# node-sunlightapi
+# jsonp-sunlightapi
 
-A Node.js client library for the [Sunlight Labs Congress API](http://services.sunlightlabs.com/docs/Sunlight_Congress_API/).
+A fork of [Clarence Leung's Node.js client library, node-sunlightapi](https://github.com/clarle/node-sunlightapi), for the [Sunlight Labs Congress API](http://services.sunlightlabs.com/docs/Sunlight_Congress_API/).  This fork employs JSONP requests, so that the service library can be deployed in client-side scenarios.
 
-## Installation from NPM
+## Dependency
 
-``` bash
-  $ [sudo] npm install sunlight
-```
+This library depends on jQuery.
 
 ## Usage
 
